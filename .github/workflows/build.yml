@@ -3,7 +3,7 @@ on: [push, workflow_dispatch]
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: devkitpro/devkitppc:20260503
+    container: devkitpro/devkitppc:20250527
     steps:
       - uses: actions/checkout@v4
       - run: make
